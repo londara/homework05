@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("-> Geeting Start :");
         String Geeting = sc.nextLine();
-        if(Geeting.length()>0) {
+        if(Geeting.length()>0==true) {
             Thread t1 = new Thread() {
                 public void run() {
                     obj.Print("Hi KSHRD!");
